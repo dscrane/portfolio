@@ -461,7 +461,7 @@ input:-webkit-autofill {
 }
 
 .diag .home{
-    background: url(../images/home-2.jpg) 50% 50% fixed;
+    background: url(../images/home.jpg) 50% 50% fixed;
     background-size: cover;
 }
 
@@ -1017,7 +1017,7 @@ input:-webkit-autofill {
 .blog-info{
     font-size: 12px;
     font-weight: 400;
-    color: #b9b9b9;
+    color: red !important;
     margin-top: 20px;
     display: inline-block;
 }
@@ -1038,7 +1038,7 @@ input:-webkit-autofill {
 
 .blog-single .blog-detail{
     font-size: 13px;
-    color: #b9b9b9;
+    color: red !important;
     margin-bottom: 30px;
 }
 
@@ -1076,7 +1076,7 @@ input:-webkit-autofill {
  }
 
 .subtitle {
-     font-size: 22px;
+    font-size: 22px;
     line-height: 24px;
     margin: 25px 0 30px 0;
     color: #000;
