@@ -76,6 +76,7 @@
                     <a href="https://github.com/dscrane" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>  </a>
                     <a href="https://www.linkedin.com/in/daegan-crane/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>  </a>
                     <a href="https://twitter.com/daegsdev" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>  </a>
+                    <button class="contact-button" type="button" data-toggle="modal" data-target="#contactModal"><i class="fa fa-envelope" aria-hidden="true"></i>  </button>
                 </div>
 
                 <a class="home-down bounce" href="#blog"><i class="fa fa-angle-down"></i></a>
@@ -135,7 +136,6 @@
         <div class="container">
             <div class="section-title">
                 <h2>GET IN TOUCH</h2>
-                <p>Out believe has request not how comfort evident. Up delight cousins we feeling <br/> minutes. Genius has looked end piqued spring. </p>
             </div>
             <!-- Contact Info -->
             <div class="row">
@@ -149,30 +149,46 @@
                         <p>40 Intervale Ave #2 <br> Burlington VT, 05401</p>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12 contact-info wow fadeInUp" data-wow-delay="0.8s">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <button class="contact-button" type="button" data-toggle="modal" data-target="#contactModal"><i class="fa fa-envelope" aria-hidden="true"></i></button>
                         <p>daegdev@gmail.com <br/> daegancrane@gmail.com</p>
                     </div>
                 </div> <!-- information end -->
-                <!--Contact Form-->
-                <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="1s">
-                    <form class="col-md-12 contact-form" method="POST" action="mail.php">
-                        <div class="row">
-                            <!--Name-->
-                            <div class="col-md-6">
-                                <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
-                            </div>
-                            <!--Email-->
-                            <div class="col-md-6">
-                                <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
-                            </div>
-                            <div class="col-md-12">
-                                <!--Message-->
-                                <textarea name="con_message" id="con_message" class="requie" placeholder="Message" rows="8"></textarea>
-                                <input id="con_submit" class="site-button" type="submit" value="SEND A MESSAGE">
+                <!--Contact Modal-->
+                <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="container-fluid">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <form class="col-md-12 contact-form" method="POST" action="mail.php">
+                                    <div class="modal-body">
+                                        <div class="col-md-12" data-wow-delay="1s">
+                                            <div class="row">
+                                                <!--Name-->
+                                                <div class="col-md-6">
+                                                    <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
+                                                </div>
+                                                <!--Email-->
+                                                <div class="col-md-6">
+                                                    <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <!--Message-->
+                                                    <textarea name="con_message" id="con_message" class="requie" placeholder="Message" rows="8"></textarea>
+                                                    <input id="con_submit" class="site-button" type="submit" value="SEND A MESSAGE">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                    </form>
-                </div> <!-- contact form end -->
+                    </div>
+                </div><!-- contact modal end -->
             </div>    
         </div>
     </section>
@@ -182,6 +198,7 @@
                 <a href="https://github.com/dscrane"><i class="fa fa-github" aria-hidden="true"></i>  </a>
                 <a href="https://www.linkedin.com/in/daegan-crane/"><i class="fa fa-linkedin" aria-hidden="true"></i>  </a>
                 <a href="https://twitter.com/daegsdev"><i class="fa fa-twitter" aria-hidden="true"></i>  </a>
+                <button class="contact-button" type="button" data-toggle="modal" data-target="#contactModal"><i class="fa fa-envelope" aria-hidden="true"></i>  </button>
             </div>
             <p>Copyright © 2020 Daegan, All rights Reserved. <br/>
 Created by Tavillathemes</p>

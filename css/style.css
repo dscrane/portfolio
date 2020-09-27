@@ -1158,7 +1158,11 @@ ul.post-comment li p {
 
 
 /*------------------------ 5 Contact ------------------------*/
-
+.contact-button {
+  color: white;
+  background: none;
+  border: none;
+}
 
 .contact-info{
     text-align: center;
@@ -1191,7 +1195,7 @@ ul.post-comment li p {
     color: #000;
     border-bottom: solid 1px #dfdfdf;
     font-size: 13px;
-    padding-left: 10px;
+
     margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
 }
@@ -1202,13 +1206,14 @@ ul.post-comment li p {
     border-bottom: solid 1px #dfdfdf;
     font-size: 13px;
     padding: 20px 0 0 10px;
-    height: 119px;
+    height: 200px;
     margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
 .contact-form{
-    margin-top: 90px;
+  background: none;
+  margin: 20px auto;
 }
 
 .contact-form .site-button{

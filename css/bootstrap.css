@@ -5886,7 +5886,7 @@ button.list-group-item-danger.active:focus {
 }
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1;
   color: #000;
@@ -5924,6 +5924,13 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - 1rem);
+}
+
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
        -o-transition:      -o-transform .3s ease-out;
@@ -5983,7 +5990,7 @@ button.close {
   border-bottom: 1px solid #e5e5e5;
 }
 .modal-header .close {
-  margin-top: -2px;
+  margin-top: -20px;
 }
 .modal-title {
   margin: 0;
