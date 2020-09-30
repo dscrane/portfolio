@@ -23,7 +23,7 @@
 
 body{
 	font-family: 'Montserrat', sans-serif;
-  background-color: lightgray;
+  background-color: #f6f6f6;
 }
 
 html{
@@ -36,7 +36,6 @@ p{
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
  }
-
 
 nav{
     position: fixed; 
@@ -74,7 +73,7 @@ nav ul li a:hover{
     float: left;
 }
 
- .responsive{
+.responsive{
     display: none;
     font-size: 23px;
 }
@@ -86,8 +85,8 @@ nav ul li a:hover{
 
 footer{
     background: #000;
-    padding: 90px 0;
-    margin-top:90px;
+    padding: 50px 0;
+    margin-top: 45px;
     text-align: center;
 }
 
@@ -509,7 +508,7 @@ input:-webkit-autofill {
 
 .social a{
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
     margin:0 15px;
     transition: all ease 0.3s;
 }
@@ -826,7 +825,7 @@ input:-webkit-autofill {
 }
 
 .work-areas .area .icon i:before{
-    font-size: 40px;
+    font-size: 70px;
     margin-left: 5px;
 }
 
@@ -864,9 +863,15 @@ input:-webkit-autofill {
 .about-text{
     display: table;
     height: 407px;
+    width: 80%;
     text-align: center;
     margin: auto;
- } 
+ }
+
+.about-text p{
+  color: white;
+  font-size: 16px;
+}
 
 .out{
     display: table-cell;
@@ -897,7 +902,8 @@ input:-webkit-autofill {
 
 
 .gray-bg{
-    margin-top: 90px;
+    margin-top: 45px;
+    padding-bottom: 60px;
     background: #f5f5f5; 
 }
 
@@ -929,95 +935,43 @@ input:-webkit-autofill {
 }
 
 
-
-/*------------------------ 4 Portfolio ------------------------*/	
-
+/*------------------------ 4 Blog ------------------------*/
 
 .section-title{
-    text-align: center;
-    padding: 90px 0 60px 0;
+
+  text-align: center;
+  padding: 60px 0 40px 0;
 }
 
 .section-title h2{
-    font-size: 23px;
-    font-weight: bold;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 .section-title p{
-    line-height: 20px;
+  line-height: 20px;
 }
 
-.portfolio_filter{
-    text-align: center;
-    padding-top: 15px;
+.portfolio-image img{
+  width: 100%;
+  height: 280px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+
 }
 
-.portfolio_filter ul{
-    margin: auto;
-    display: inline-block;
-}
+.portfolio-content{
 
-.portfolio_filter ul li{
-    font-size: 14px;
-    color: #777777;
-    font-family: 'Poppins', sans-serif;
-    float: left;
-    margin-right: 15px;
-    list-style: none;
-    cursor: pointer;
-}
-
-.single_item {
-    margin-bottom: 30px;
-}
-
-.single_item img{
-    width: 100%;
-    transition: all ease 0.3s;
-}
-
-.single_item img:hover {
-  background: #ffffff;
-  transition: all ease 0.3s;
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  top: -5px;
-}
-
-.select-cat{
-    color:#000 !important;
-}
-
-.popup-youtube {
-    position: relative;
-}
-
-.popup-youtube i{
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    background: rgba(0, 0, 0, 0.66);
-    padding: 28px 29px;
-    color: #fff;
-    margin: -31px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-}
-
-
-
-/*------------------------ 5 Blog ------------------------*/
-
-.blog-image img{
-    width: 100%;
-}
-
-.blog-content{
     margin-bottom:60px;
 }
 
-.blog h1{
+.portfolio-content p {
+  font-size: 14px;
+}
+
+.portfolio h1{
     font-size: 20px;
     line-height: 24px;
     margin: 25px 0 13px 0;
@@ -1025,20 +979,20 @@ input:-webkit-autofill {
     font-family: 'Montserrat', sans-serif;
 }
 
-.blog-info{
+.portfolio-info{
     font-size: 12px;
     font-weight: 400;
-    color: #6b6464;
-    margin-top: 20px;
+    color: #3b3b3b;
+    margin-top: 10px;
     display: inline-block;
 }
 
-.blog .site-button{
+.portfolio .site-button{
     margin:0 auto 60px;
     display: table;
 }
 
-.blog-single h1 {
+.portfolio-single h1 {
      font-size: 22px;
     line-height: 24px;
     margin: 25px 0 12px 0;
@@ -1047,17 +1001,17 @@ input:-webkit-autofill {
     font-family: 'Montserrat', sans-serif;
 }
 
-.blog-single .blog-detail{
+.portfolio-single .portfolio-detail{
     font-size: 13px;
     color: #6b6464;
     margin-bottom: 30px;
 }
 
-.blog-single .blog-detail span{
+.portfolio-single .portfolio-detail span{
     color: #000;
 }
 
-.blog-single blockquote {
+.portfolio-single blockquote {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -1067,12 +1021,12 @@ input:-webkit-autofill {
     margin: 40px 0;
 }
 
-.blog-single ul.list-style {
+.portfolio-single ul.list-style {
     padding: 30px;
     line-height: 24px;
 }
 
-.blog-single ul.list-style li {
+.portfolio-single ul.list-style li {
     font-size: 14px;
     list-style: circle;
 }
@@ -1082,7 +1036,7 @@ input:-webkit-autofill {
     padding-bottom: 30px;
 }
 
-.blog-single .post-lightbox{
+.portfolio-single .post-lightbox{
     padding: 30px 0 0;
  }
 
@@ -1360,7 +1314,7 @@ a.site-button{
         margin-bottom: 0;
     }
     
-    .diag .blog{
+    .diag .portfolio{
         padding-bottom: 60px;
     }
     
@@ -1375,38 +1329,6 @@ a.site-button{
     }
     
 }
-
-
-/*------------------------ 7 Slider & Video Home ------------------------*/
-
-
-.home-slider{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-}
-
-.slider{
-    background: none !important;
-}
-
-.home-video{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-
-
-
-
-
-
 
 
 

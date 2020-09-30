@@ -13,8 +13,7 @@
 <link rel="stylesheet" href="css/bootstrap.css"/>
 <link rel="stylesheet" href="css/reset.css"/>
 <link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" href="css/animate.css"/>
-<link rel="stylesheet" href="css/magnific-popup.css"/> 
+
     
 <!-- Google Web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -48,8 +47,8 @@
                 <div class="responsive"><i data-icon="m" class="icon"></i></div>
                 <ul class="nav-menu">
                     <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#blog" class="smoothScroll">Portfolio</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+                    <li><a href="/assets/daegancraneresume.pdf" download>Resume</a></li>
                 </ul>
             </div>
         </div>
@@ -64,8 +63,16 @@
                             <div class="out">
                                 <h1>Daegan Crane</h1>
                                 <br/>
-                                <p style="color: white">
-                                    I took advantage of Covid-19 and quarantine to pursue new passion for web development. The last six months have been focused on learning the fundamentals of full stack development and finding my strengths and weaknesses along the way. I focused on the core of the ‘MERN’ stack creating apps using React, Redux, Express and Node.js. I am eager to begin my career in web development and continue to strengthen the skills and knowledge I have developed to this point.
+                                <p>
+                                    I took advantage of Covid-19 and quarantine to pursue a new passion for web
+                                    development. I have just finished a six-month, self-paced bootcamp developed by a
+                                    family friend in the field of software development. The bootcamp focused on the
+                                    following: HTML, CSS, JavaScript, React, Redux, Node.js, Express and MongoDB. It
+                                    culminated in the completion and deployment of three applications. I am eager to
+                                    begin my career in web development and continue to strengthen the skills and
+                                    knowledge I have acquired to this point. I am a fast learner who enjoys the
+                                    challenge of mastering new skills, I am a very hard worker, and I am hungry to
+                                    succeed in this field.
                                     <br/><br/>
                                 </p>
                             </div>
@@ -76,17 +83,17 @@
                     <a href="https://github.com/dscrane" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>  </a>
                     <a href="https://www.linkedin.com/in/daegan-crane/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>  </a>
                     <a href="https://twitter.com/daegsdev" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>  </a>
-                    <button class="contact-button" type="button" data-toggle="modal" data-target="#contactModal"><i class="fa fa-envelope" aria-hidden="true"></i>  </button>
+                    <a href="mailto:daegancrane@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>  </a>
                 </div>
 
-                <a class="home-down bounce" href="#blog"><i class="fa fa-angle-down"></i></a>
+                <a class="home-down bounce" href="#portfolio"><i class="fa fa-angle-down"></i></a>
             </div>
     </section>
     <!--ABOUT-->
 
 
      <!-- PORTFOLIO -->
-     <section class="blog" id="blog">
+     <section class="portfolio" id="portfolio">
          <div class="container-fluid gray-bg">
              <div class="container">
                  <div class="section-title">
@@ -95,113 +102,68 @@
                  </div>
                  <!-- Blogs -->
                  <div class="row">
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content">
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-content">
                          <a href="https://dsc-chat-app.herokuapp.com" class=" wow fadeInUp" data-wow-delay="0.4s" target="_blank">
-                             <div class="blog-image">
+                             <div class="portfolio-image">
                                  <img src="images/whats_chat_img.png" alt="">
                              </div>
                              <h1>WhatsChat</h1>
                          </a>
-                         <p>My first fullstack application. It won’t be competing with WhatsApp anytime soon, but it was crucial for my understanding of the server/client relationship. Built using the MERN stack and Socket.io it is a real time chat application between users in a variety of channels.<br><a href="https://github.com/dscrane/fullstackapp" target="_blank">Code</a></p>
-                         <span class="blog-info"> React, Redux, Express, Node, Socket.io  </span>
+                         <p>My first fullstack application. It won’t be competing with WhatsApp anytime soon, but it was
+                            crucial for my understanding of the server/client relationship. Built using the MERN stack
+                            and Socket.io it is a real time chat application between users in a variety of channels.
+                            <br>
+                            <a href="https://dsc-chat-app.herokuapp.com" target="_blank">Demo</a>
+                            |
+                            <a href="https://github.com/dscrane/fullstackapp" target="_blank">Code</a></p>
+                         <span class="portfolio-info"> React, Redux, Express, Node, Socket.io  </span>
                      </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content">
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-content">
                          <a href="https://dscrane.github.io/collegeScorecard/" class="wow fadeInUp" data-wow-delay="0.6s" target="_blank">
-                             <div class="blog-image">
+                             <div class="portfolio-image">
                                  <img src="images/college_scorecard_img.png" alt="">
                              </div>
                              <h1>College Scorecard</h1>
                          </a>
-                         <p>A simple website for finding data about colleges and universities in the United States. Using Javascript and the CollegeScorecard API you can find information about schools in cities around the country.<br><a href="https://github.com/dscrane/collegeScorecard" target="_blank">Code</a></p>
-                         <span class="blog-info">Javascript, HTML, CSS</span>
+                         <p>A frontend application for finding data about colleges and universities in the United States.
+                            Using Javascript and the CollegeScorecard API it allows you to find information about schools in
+                            cities around the country.
+                            <br>
+                            <a href="https://dscrane.github.io/collegeScorecard/" target="_blank">Demo</a>
+                            |
+                            <a href="https://github.com/dscrane/collegeScorecard" target="_blank">Code</a>
+                         </p>
+                         <span class="portfolio-info">Javascript, HTML, CSS</span>
                      </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content">
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-content">
                          <a href="https://carriecrane.herokuapp.com/index.html" class="wow fadeInUp" data-wow-delay="0.8s" target="_blank">
-                             <div class="blog-image">
+                             <div class="portfolio-image">
                                  <img src="images/carrie_crane_img.png" alt="">
                              </div>
                              <h1>Carrie Crane</h1>
                          </a>
-                         <p>A copy of my mother’s website using HTML, CSS and a little Javascript. <br><a href="https://github.com/dscrane/momswebsite" target="_blank">Code</a></p>
-                         <span class="blog-info">HTML, CSS</span>
+                         <p>An artist's portfolio site for my mother's artwork. This was my first attempt at creating
+                            a static website with HTML and CSS using custom styling.
+                            <br>
+                            <a href="https://carriecrane.herokuapp.com/index.html" target="_blank">Demo</a>
+                            |
+                            <a href="https://github.com/dscrane/momswebsite" target="_blank">Code</a></p>
+                         <span class="portfolio-info">HTML, CSS</span>
                      </div>
                  </div>
-                 <!--<a href="blog-page.html" class="site-button"> READ MORE</a>-->
+                 <!--<a href="portfolio-page.html" class="site-button"> READ MORE</a>-->
              </div>
          </div>
      </section>
 
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>GET IN TOUCH</h2>
-            </div>
-            <!-- Contact Info -->
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8 contact-information">
-                    <div class="col-md-4 col-sm-4 col-xs-12 contact-info wow fadeInUp" data-wow-delay="0.4s">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <p>49 0216 514 25 25 <br/>0216 514 25 25</p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 contact-info wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <p>40 Intervale Ave #2 <br> Burlington VT, 05401</p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 contact-info wow fadeInUp" data-wow-delay="0.8s">
-                        <button class="contact-button" type="button" data-toggle="modal" data-target="#contactModal"><i class="fa fa-envelope" aria-hidden="true"></i></button>
-                        <p>daegdev@gmail.com <br/> daegancrane@gmail.com</p>
-                    </div>
-                </div> <!-- information end -->
-                <!--Contact Modal-->
-                <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="container-fluid">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <form class="col-md-12 contact-form" method="POST" action="mail.php">
-                                    <div class="modal-body">
-                                        <div class="col-md-12" data-wow-delay="1s">
-                                            <div class="row">
-                                                <!--Name-->
-                                                <div class="col-md-6">
-                                                    <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
-                                                </div>
-                                                <!--Email-->
-                                                <div class="col-md-6">
-                                                    <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <!--Message-->
-                                                    <textarea name="con_message" id="con_message" class="requie" placeholder="Message" rows="8"></textarea>
-                                                    <input id="con_submit" class="site-button" type="submit" value="SEND A MESSAGE">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- contact modal end -->
-            </div>    
-        </div>
-    </section>
     <footer>
         <div class="container">
             <div class="social">
                 <a href="https://github.com/dscrane"><i class="fa fa-github" aria-hidden="true"></i>  </a>
                 <a href="https://www.linkedin.com/in/daegan-crane/"><i class="fa fa-linkedin" aria-hidden="true"></i>  </a>
                 <a href="https://twitter.com/daegsdev"><i class="fa fa-twitter" aria-hidden="true"></i>  </a>
-                <button class="contact-button" type="button" data-toggle="modal" data-target="#contactModal"><i class="fa fa-envelope" aria-hidden="true"></i>  </button>
+                <a href="mailto:daegancrane@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>  </a>
             </div>
-            <p>Copyright © 2020 Daegan, All rights Reserved. <br/>
-Created by Tavillathemes</p>
         </div>
     </footer>
     
