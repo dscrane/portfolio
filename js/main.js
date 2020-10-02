@@ -2,43 +2,13 @@
 $(window).load( function() {	
     
 
-        // LIGHTBOX VIDEO
-    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		mainClass: 'mfp-fade',
-		removalDelay: 160,
-		preloader: false,
 
-		fixedContentPos: false
-	});
         
 //PRELOADER
  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
 
     
-if ($('.isotope_items').length) {
 
-    // PORTFOLIO ISOTOPE
-     var $container = $('.isotope_items');
-     $container.isotope();
-
-    $('.portfolio_filter ul li').on("click", function(){
-        $(".portfolio_filter ul li").removeClass("select-cat");
-        $(this).addClass("select-cat");				 
-        var selector = $(this).attr('data-filter');
-        $(".isotope_items").isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false,
-            }
-    });
-        return false;
-    });  
-    
-}
     
 }); // window load end 
 
