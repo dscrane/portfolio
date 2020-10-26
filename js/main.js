@@ -70,7 +70,7 @@ $(document).ready( function() {
     //NAVBAR SHOW - HIDE
     $(window).scroll(function() {				
     var scroll = $(window).scrollTop();
-    var homeheight = $(".home").height() -86;			
+    var homeheight = $(".home").height() -86;
 
     if (scroll > homeheight ) {												
         $("nav").slideDown(100);
@@ -91,7 +91,7 @@ $('.responsive').on('click', function (e) {
         var hometext = $('.home')
 
         hometext.css({
-            "height": $(window).height() + "px"
+            "height": "60%"
         });
     }
     centerInit();

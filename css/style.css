@@ -19,11 +19,405 @@
 	7. Slider & Video Home
 
 
-/*------------------------ 1 Body and Core Css ------------------------*/		
+/*------------------------ 1 Body and Core Css ------------------------*/
+/* Top_content
+---------------------------------*/
 
+.top_cont_outer {
+  position: relative;
+  /* height: 750px; */
+  background: url('../img/home2.jpg') no-repeat;
+  background-size: cover;
+  background: #000;
+}
+.top_cont_outer:before{/* content:''; */position:absolute;top:0;width:100%;z-index:5;/* background: rgba(25, 25, 25, 0.7); */height:100%;bottom:0;}
+.hero_section {
+  position: relative;
+  padding-top: 72px;
+  z-index: 5;
+}
+
+.white_pad {
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+}
+
+.white_pad img {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.top_left_cont {
+  padding: 110px 0;
+}
+
+.top_left_cont h3 {
+  font-size: 16px;
+  color: #f56eab;
+  margin: 0 0 20px 0;
+  text-align: left;
+  font-weight: 700;
+}
+
+.top_left_cont h2 {
+  font-size: 38px;
+  color: #FFF;
+  margin: 0 0 0px 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  line-height: 77px;
+  text-transform: initial;
+}
+
+.top_left_cont h2 strong {
+  font-weight: 700;
+  color: #03a9f4;
+}
+
+.top_left_cont p {color: rgba(255, 255, 255, 0.74);margin: 0 0 50px 0;line-height: 24px;font-size: 15px;text-align: center;letter-spacing: 1px;font-weight: normal;}
+
+a.read_more, a.read_more2 {
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  font-size: 16px;
+  width: 178px;
+  height: 46px;
+  line-height: 46px;
+  border-radius: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  background: transparent;
+  color: #FEB11E;
+  border: 1px solid #FEB11E;
+  margin:0 auto;
+}
+a.read_more{
+  color: #3C3C3C;
+  border: 1px solid #3C3C3C;
+}
+a.read_more2:hover, a.read_more:hover {
+  background: #fff;
+  color: #0593F9;
+  border: 1px solid #fff;
+}
+a.read_more:hover {
+  background: #fff;
+  color: #ED5441;
+  border: 1px solid #ED5441;
+}
+
+
+
+.timeline{
+  padding:110px 0;
+}
+.timeline h2{
+}
+
+
+.card {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(214, 224, 226, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card .card-heading {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.card .card-heading.simple {
+  font-size: 20px;
+  font-weight: 300;
+  color: #777;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  margin-right: 15px;
+  vertical-align: top;
+  border: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+  font-size: 12px;
+  color: #999999;
+}
+
+.card .card-body {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.card .card-media {
+  padding: 0 20px;
+  margin: 0 -14px;
+}
+
+.card .card-media img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card .card-actions {
+  min-height: 30px;
+  padding: 0 20px 20px 20px;
+  margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+  padding: 20px;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+  padding: 0;
+  margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+  padding-right: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #999;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-comments .media-heading {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.card.people {
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  height: 300px;
+  padding-top: 0;
+  margin-left: 20px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.card.people:first-child {
+  margin-left: 0;
+}
+
+.card.people .card-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 170px;
+  height: 150px;
+  background-color: #ffffff;
+}
+
+.card.people .card-top.green {
+  background-color: #53a93f;
+}
+
+.card.people .card-top.blue {
+  background-color: #427fed;
+}
+
+.card.people .card-info {
+  position: absolute;
+  top: 150px;
+  display: inline-block;
+  width: 100%;
+  height: 101px;
+  overflow: hidden;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #404040;
+}
+
+.card.people .card-info .desc {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 16px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  line-height: 29px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card.hovercard {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #006FA2;
+  margin: 0;
+}
+
+.card.hovercard .cardheader {
+  /* background: url("http://lorempixel.com/850/280/nature/4/"); */
+  background-size: cover;
+  height: 210px;
+  background: #034664;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -80px;
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  right: 0px;
+  left: 0px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .avatar img {
+  width: 165px;
+  height: auto;
+  max-width: 165px;
+  margin-left: -11px;
+}
+
+.card.hovercard .info {
+  padding: 0 8px 22px;
+  top: -50px;
+  position: relative;
+}
+
+.card.hovercard .info .title {
+  margin-bottom: 10px;
+  font-size: 26px;
+  line-height: 1;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.card.hovercard .info .title a{
+  color: #ffffff;
+}
+.card.hovercard .info .desc {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.77);
+  text-overflow: ellipsis;
+  width: 50%;
+  margin: auto;
+}
+.card.hovercard .info .desc b{
+  color: white;
+  font-size: x-large;
+}
+.card.hovercard .bottom {
+  padding: 0 20px;
+  margin-bottom: 70px;
+}
+
+.social_links {
+  padding:0;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer_wrapper .social_links{
+  text-align: left;
+  padding-left: 17px;
+}
+.social_links li {
+  display: inline-block;
+  margin-right: 4px;
+  border: 1px solid #285d6b;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+.social_links li a {
+  display: block;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  color: #00283a;
+}
+
+.social_links li a:hover, .social_links li a:focus {
+  text-decoration: none;
+  border-radius: 80px;
+  background: #163840;
+  color: #fff;
+}
 body{
 	font-family: 'Montserrat', sans-serif;
-  background-color: #f6f6f6;
+  background-color: #c9cad7;
 }
 
 html{
@@ -32,14 +426,14 @@ html{
 
 p{
     font-size: 13px;
-    color: #777777;
+    color: #3c3c3c;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
  }
 
 nav{
     position: fixed; 
-    background: #fff;
+    background: #034664;
     z-index: 1000;
     width: 100%;
     padding: 20px;
@@ -73,6 +467,10 @@ nav ul li a:hover{
     float: left;
 }
 
+/*.logo img {*/
+/*  border-radius: 5px;*/
+/*}*/
+
 .responsive{
     display: none;
     font-size: 23px;
@@ -84,7 +482,7 @@ nav ul li a:hover{
 
 
 footer{
-    background: #000;
+    background: #034664;
     padding: 50px 0;
     margin-top: 45px;
     text-align: center;
@@ -454,316 +852,9 @@ input:-webkit-autofill {
 /*------------------------ 2 Home ------------------------*/		
 
 .home{
-    background:url(../images/home.jpg) bottom center;
+
     width: 100%;
     display: table;
-}
-
-.diag .home{
-    background: url(../images/home.jpg) 50% 50% fixed;
-    background-size: cover;
-}
-
-.home-content{
-   display: table-cell;
-   vertical-align: middle;
-   text-align: center;
-   z-index: 2;
-   position: relative;
-}
-
-.home-content h1{
-   font-size: 75px;
-   color: #fff;
-   font-weight: bold;
-   letter-spacing: -3px;
-   margin-bottom: 20px;
-}
-
-.home-content .row {
-  display: flex;
-  justify-items: center;
-}
-
-.home-content .container {
-  text-align: center;
-}
-
-.home:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-.social{
-    height: 30px;
-}
-
-
-
-.social a{
-    color: #fff;
-    font-size: 25px;
-    margin:0 15px;
-    transition: all ease 0.3s;
-}
-
-
-.social a:hover{
-    transition: all ease 0.3s;
-    opacity: 0.5;
-}
-
-
-.home-down {
-    color: #fff;
-    font-size: 40px;
-    padding-top: 40px;
-    padding-left: 20px;
-    display: inline-block;
-    transition: all 0.3s ease;
-}
-
-
-.home-down:hover{
-    color: #fff;
-	transition:all 0.3s ease;
-}
-
-.home-down:focus{
-    color: #fff;
-}
-
-/* arrow css3 animation */
-
-@-webkit-keyframes bounce {
-	 0%, 100% {-webkit-transform: translateY(0);} 
-	 50% {-webkit-transform: translateY(-20px);}
-}
- 
-@-moz-keyframes bounce {
-	 0%, 100% {-moz-transform: translateY(0);}
-	 50% {-moz-transform: translateY(-20px);}
-}
- 
-@-o-keyframes bounce {
-	 0%, 100% {-o-transform: translateY(0);}
-	 50% {-o-transform: translateY(-20px);}
-}
-
-@keyframes bounce {
-	 0%, 100% {transform: translateY(0);}
-	 50% {transform: translateY(-20px);}
-}
- 
- .bounce {
-	 -webkit-border-radius:50%;
-	 -moz-border-radius:50%;
-	 -ms-border-radius:50%;
-	 border-radius:50%;
-	 animation: bounce 2s infinite;
-	 -webkit-animation: bounce 2s infinite;
-	 -moz-animation: bounce 2s infinite;
-	 -o-animation: bounce 2s infinite;
-}
-
-.diagonal{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    pointer-events: none;
-    background: #fff;
-    float: left;
-    z-index: 1000;
-}
-
-.diagonal-gray{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    pointer-events: none;
-    background: #fff;
-    float: left;
-    z-index: 100;
-    margin-top: 90px;
-}
-
-.diagonal-gray path {
-       fill: #f5f5f5;
-}
-
-.diagonal-white{
-    background: #f5f5f5;
-    margin-bottom: -6px;
-    margin-top: 60px;
-}
-
-.diagonal-white path {
-    fill: #fff;
-    stroke: #f5f5f5;
-    stroke-width: 0;
-}
-
-.diagonal.home-left{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: none;
-    z-index: 99;
-}
-
-.diagonal.home-right{
-    position: absolute;
-    bottom: 0;
-    right: 0 !important;
-    background: none;
-    z-index: 99;
-    left: auto;
-}
-
-.diagonal.home-left, .diagonal.home-right path {
-    fill: #f5f5f5;
-    stroke: #f5f5f5;
-    stroke-width: 4;
-}
-
-.diag p{
-    font-size: 15px;
-    color: #748182;
-    line-height: 28px;
-}
-
-.diag .section-title.dleft{
-    text-align: left;
-    padding: initial;
-}
-
-.diag .section-title.dleft .portfolio_filter ul{
-    float: left;
-}
-
-.diag .section-title.dright{
-    text-align: right;
-    padding: initial;
-}
-
-.diag section{
-    position: relative;
-}
-
-.diag .contact .contact-info li{
-    line-height: 36px;
-    font-size: 14.5px;
-    color: #414141;
-    text-align: left;
-    list-style: none;
-}
-
-.diag .page-title.sub{
-    font-size: 23px;
-    text-align: right;
-    width: 100%;
-    float: right;
-}
-
-.diag .page-title.sub h5{ 
-        font-weight: bold;
-    line-height: 30px;
-    padding-bottom: 15px;
-}
-
-.diag .social-icons a {
-    color: #000;
-    font-size: 13px;
-    width: 26px;
-    height: 18px;
-    display: inline-block;
-}
-
-.diag .home-content h1{
-    text-align: left;
-}
-
-.diag .home-content .social{
-    text-align: left;
-}
-
-.diag .home-content .home-down.bounce{
-    float: left;
-    padding: 50px 74px 0;
-}
-
-.social-icons a:hover {
-    font-size: 15px;
-}
-
-.fb:hover{
-    color: #3b5998!important;
-    transition: all ease 0.1s;
-}
-
-.tw:hover{
-    color: #55acee!important;
-    transition: all ease 0.1s;
-}
-
-.ins:hover{
-    color: #cd486b!important;
-    transition: all ease 0.1s;
-}
-
-.bh:hover{
-    color: #1769ff!important;
-    transition: all ease 0.1s;
-}
-
-.dr:hover{
-    color: #ea4c89!important;
-    transition: all ease 0.1s;
-}
-
-
-.sitebtn{
-    border: solid 2px #dfdfdf;
-    background: none;
-    font-size: 13px;
-    padding:9px 11px;
-    text-align: left;
-    min-width: 140px;
-    line-height: 17px;
-    transition: all ease 0.3s;
-    color:#000; 
-}
-
-.sitebtn:after{
-    font-family: FontAwesome;
-    content: "\f178";
-    color: #000;
-    float: right;
-}
-
-.sitebtn:focus{
-    border: solid 2px #000;
-}
-
-.sitebtn:hover{
-    background: #000;
-    color: #fff;
-    border-color: #000;
-    transition: all ease 0.3s;
-}
-
-.sitebtn:hover:after{
-    color: #fff;
-}
-
-.sitebtn:focus{
-    border: solid 2px #dfdfdf;
 }
 
 
