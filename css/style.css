@@ -465,11 +465,10 @@ nav ul li a:hover{
 
 .logo{
     float: left;
+    /*background: none;*/
 }
 
-/*.logo img {*/
-/*  border-radius: 5px;*/
-/*}*/
+
 
 .responsive{
     display: none;
@@ -496,6 +495,7 @@ footer p{
 .site-button:focus{
     outline: 0;
 }
+
 
 .nav-menu li a:focus{
     color: #000;
@@ -1353,9 +1353,11 @@ a.site-button{
         display: none;
         float: none;
         width: 100%;
+
     }
     
     .nav-menu li{
+        margin: auto auto;
         float: none; 
         width: 100%;
         text-align: center;
